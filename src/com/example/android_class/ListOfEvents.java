@@ -31,7 +31,7 @@ public class ListOfEvents extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.list_with_events);
-		ListView lv = (ListView) findViewById(R.id.eventsList);
+		ListView lv = (ListView) findViewById(R.id.eventslist);
 		final String[] planets = getResources().getStringArray(R.array.planets_array);
 		final ArrayAdapter<String> adapter = new ArrayAdapter<String>(
 				this,
