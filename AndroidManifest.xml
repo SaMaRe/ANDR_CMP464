@@ -7,6 +7,8 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+   
 
     <application
         android:allowBackup="true"
@@ -22,18 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android_class.ListOfEvents" >
-        </activity>
-        <activity android:name="com.example.android_class.CustomListView" >
-        </activity>
-        <activity
-            android:name="com.example.android_class.ItemDescriptionActivity"
-            android:label="@string/title_activity_item_description" >
-        </activity>
-        <activity
-            android:name="com.example.android_class.AnotherSampleList"
-            android:label="@string/title_activity_another_sample_list" >
-        </activity>
+   
     </application>
 
 </manifest>
