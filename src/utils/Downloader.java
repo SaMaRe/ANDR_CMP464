@@ -1,5 +1,6 @@
 package utils;
 
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,9 +18,10 @@ public class Downloader {
 			StringBuffer sb = new StringBuffer();
 			String line = in.readLine();
 			while(line != null){
-				sb.append(sb);
+				sb.append(line);
 				line = in.readLine();
 			}
+			in.close();
 			return new Success<StringBuffer>(sb);
 		} catch (MalformedURLException e) {
 			return new Failure<StringBuffer>(e);
