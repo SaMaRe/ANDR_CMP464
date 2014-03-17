@@ -17,7 +17,7 @@
 	    android:text="Go to custom List View"
 	    />
 	<ListView 
-	    android:id="@+id/eventsList"
+	    android:id="@+id/eventslist"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    ></ListView>
