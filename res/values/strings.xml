@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<<<<<<< HEAD
     <string name="app_name">HelloWorld</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
       <string-array name="planets_array">
-        <item>Mercury</item>
-=======
-<<<<<<< HEAD
-    <string name="app_name">RichSiteSummaryReader</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
-</resources>
-=======
-    <string name="app_name">android_class</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    
-    <string-array name ="planets_array">
         <item >Mercury</item>
->>>>>>> origin/master
         <item>Venus</item>
         <item>Earth</item>
         <item>Mars</item>
@@ -30,18 +14,6 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
-<<<<<<< HEAD
+
 
 </resources>
-=======
-    <string name="title_activity_item_description">Item Description</string>
-    <string name="title_activity_another_sample_list">Another Sample List</string>
-        
-    
-
-     
-
-</resources>
-
->>>>>>> origin/master
->>>>>>> origin/master
