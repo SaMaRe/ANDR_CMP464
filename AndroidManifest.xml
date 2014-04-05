@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     package="com.example.rssparser"
-=======
-	package="com.example.andrclass"
->>>>>>> origin/master
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,11 +15,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-<<<<<<< HEAD
-            android:name="com.example.rssparser.MainActivity"
-=======
-            android:name="com.example.andrclass.MainActivity"
->>>>>>> origin/master
+            android:name="com.example.rssparser.MainActivity""
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,13 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity android:name="com.example.rssparser.RssItem"></activity>
         <activity android:name="com.example.rssparser.DescriptionActivity"></activity>
         
-=======
 
->>>>>>> origin/master
     </application>
 
 </manifest>
